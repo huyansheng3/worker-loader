@@ -1,12 +1,12 @@
 {
-  "name": "worker-loader",
-  "version": "3.0.8",
+  "name": "worker-loader-inline-encode",
+  "version": "3.0.9",
   "description": "worker loader module for webpack",
   "license": "MIT",
   "repository": "webpack-contrib/worker-loader",
   "author": "Tobias Koppers @sokra",
-  "homepage": "https://github.com/webpack-contrib/worker-loader",
-  "bugs": "https://github.com/webpack-contrib/worker-loader/issues",
+  "homepage": "https://github.com/huyansheng3/worker-loader-inline-encode",
+  "bugs": "https://github.com/huyansheng3/worker-loader-inline-encode/issues",
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/webpack"
