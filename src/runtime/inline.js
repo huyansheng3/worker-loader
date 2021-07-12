@@ -3,6 +3,14 @@
 
 module.exports = (content, workerConstructor, workerOptions, url) => {
   const globalScope = self || window;
+
+  if(workerOptions.encodeContent) {
+    return new globalScope[workerConstructor](
+      `data:application/javascript,${encodeURIComponent(content)}`,
+      workerOptions
+    );
+  }
+
   try {
     try {
       let blob;

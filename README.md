@@ -75,6 +75,7 @@ And run `webpack` via your preferred method.
 |      **[`filename`](#filename)**      |    `{String\|Function}`     |   based on `output.filename`    | The filename of entry chunks for web workers                                      |
 | **[`chunkFilename`](#chunkfilename)** |         `{String}`          | based on `output.chunkFilename` | The filename of non-entry chunks for web workers                                  |
 |        **[`inline`](#inline)**        | `'no-fallback'\|'fallback'` |           `undefined`           | Allow to inline the worker as a `BLOB`                                            |
+|        **[`encodeContent`](#encodeContent)**        | `{Boolean}` |           `undefined`           | Allow to inline the worker as base64 string; has the max length strict
 |      **[`esModule`](#esmodule)**      |         `{Boolean}`         |             `true`              | Use ES modules syntax                                                             |
 
 ### `worker`
